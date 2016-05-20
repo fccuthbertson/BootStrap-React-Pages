@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Local - Big Credit for Small Business</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/MainPage.css">
+  <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Titillium+Web|Dosis' rel='stylesheet' type='text/css'>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- Toogle Navbar Button when collapsed-->
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+              aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- End Button -->
+
+      <a class="navbar-brand" href="#">Local MockUp</a>
+    </div>
+
+    <div id="navbar" class="navbar-collapse collapse">
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" placeholder="Email" class="form-control">
+        </div>
+        <div class="form-group">
+          <input type="password" placeholder="Password" class="form-control">
+        </div>
+
+        <button type="submit" class="btn btn-success">Sign in</button>
+        <a href="SignUp.html" target = "blank" class = "btn btn-warning">Sign Up</a>
+      </form>
+    </div><!--/.navbar-collapse -->
+  </div>
+</nav>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Local</h1>
+
+    <p>Because Great Business is Built on Great Relationships.</p>
+
+  </div>
+</div>
+<!--/Main Jumbotron -->
+
+<div class="container" id="lowerPageHalf">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2>What is Local?</h2>
+
+      <p>
+        Local offers Merchants a new approach to credit. With fees well below major CC companies
+        and competitive client terms, Local gives you the ability to Personalize your lending
+        for all client types.
+      </p>
+      <p><a class="btn btn-default" href="#" role="button" id = "details">View details &raquo;</a></p>
+    </div>
+    <div class = "col-md-8" >
+      <img src="../img/CCpic.jpeg" alt="" id = "CCpic" class = "img-responsive">
+    </div>
+  </div>
+
+  <hr>
+
+  <footer>
+    <p>&copy; 2015 Mk Financial, Inc.</p>
+  </footer>
+</div> <!-- /container -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+</html>
